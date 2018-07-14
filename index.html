@@ -1,60 +1,290 @@
-<!-- Activity 1: Basic HTML Bio -->
-
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>John Beatty Bio</title>
-</head>
+<!-- I downloaded this template from https://startbootstrap.com/template-overviews/resume  -->
 
-<body>
+  <head>
 
-  <!-- Site Header -->
-  <header>
-    <!-- h1: The most important headline -->
-    <h1>Student Bio</h1>
-  </header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="John Beatty info" content="">
+    <meta name="John Beatty" content="">
 
-  <div class="container">
+    <title>John Beatty</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">John Beatty</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">John
+            <span class="text-primary">Beatty</span>
+          </h1>
+          <br>
+          <p class="mb-5">Welcome to my GitHub page.</p>
+          <p class="mb-5">I've been working in Infrastructure (from power plug up through the Operating System) for most of my career and have recently started moving up into applications.  This GitHub repository holds  projects from my Full Stack Developer BootCamp course as well as a few other projects.</p>
+          <p class="mb-5">Thanks for stopping by.</p>
+
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/johnbeatty1" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/john_beatty " target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/beattyjohn/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/johndavidbeatty/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Network and Security Partner Sales Specialist</h3>
+              <div class="subheading mb-3">VMware Inc.</div>
+              <p>I help VMware Partners build and execute sales and services practices based on VMware Network and Security Solutions. Those solutions include: </p>
+              <li>Software-Defined Networking</li><li>Network Analysis</li><li>Software-Defined Wide Area Networks</li><li>Application Security</li>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2017 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Cloud Sales Specialist</h3>
+              <div class="subheading mb-3">Hewlett Packard Enterprise</div>
+              <p>I sold cloud solutions to HPE global customers.  Solutions included:</p>
+              <li>OpenStack Software, Subscription and Services</li><li>Enterprise Cloud-Management Software</li><li>Converged Systems</li><li>Hyper-Converged Systems</li>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2015 - April 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Account Manager</h3>
+              <div class="subheading mb-3">Cisco</div>
+              <p>
+                Sold complete Cisco portfolio to named State, Local and Education accounts in the Southern California area.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2010 - December 2011</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Converged Infrastructure Specialist</h3>
+              <div class="subheading mb-3">Hewlett Packard</div>
+              <p>I sold HP servers to global customers including The Walt Disney Company and Qualcomm.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2012 - January 2013</span>
+            </div>
+          </div>
+          <br>
+          <div class="resume-item d-flex flex-column flex-md-row">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">Consulting Systems Engineer</h3>
+                <div class="subheading mb-3">Cisco</div>
+                <p>Helped Cisco customers leverage Cisco Data Center technologies.</p>
+              </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">January 2011 - August 2012</span>
+              </div>
+          </div>
+          <br>
+          <div class="resume-item d-flex flex-column flex-md-row">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">Sales Consultant and Senior Systems Engineer</h3>
+                <div class="subheading mb-3">Oracle through acquisition of Sun Microsystems</div>
+                <p>Systems Engineer Supporting Enterprise Computing for Customers around the United States. Specialties Included:</p>
+                <li>High-End Servers</li><li>Storage Arrays</li><li>High-Availability</li><li>Converged Systems</li><li>Performance</li>
+
+              </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">May 1996 - December 2010</span>
+              </div>
+            </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Rady School of Business, University of California, San Diego</h3>
+              <div class="subheading mb-3">Masters of Business Administration</div>
+
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2009</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Purdue University</h3>
+              <div class="subheading mb-3">Bachelor of Science in Industrial Engineering Technology</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 1992</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="subheading mb-3">Infrastructure Projects (details restricted by NDA)</div>
+          <li>Designed and deployed storage and compute for Level3 Data Centers in San Diego, Denver and London</li>
+          <li>Designed compute and High-Availability infrastructure for SonyStyle.com</li>
+          <li>Designed and cooridinated multiple iterations of compute infrastructure for TurboTax online</li>
+          <li>Supported multiple projects with Disney Imagineering, Disney Animation, Pixar, ESPN and Lucasfilm</li>
+
+          <br>
+          <div class="subheading mb-3">Coding Projects from Full Stack Developer Boot Camp Course</div>
+
+          <li>SavEats Application which combines Groupon deals with Yelp reviews 
+            <a class="devicons devicons devicons-responsive links" href="https://johndavidbeatty.github.io/GroupProject/design_fast.html" target="_blank" title="Go to the application">application</a>
+            <a class="devicons devicons-github_badge links" href="https://github.com/johndavidbeatty/GroupProject/" target="_blank" title="Go to the GitHub project page">code</a>
+          </li>
 
 
-    <!-- Section 1: Bio -->
-    <section id="main-bio">
-      <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
-      <h2>John Beatty</h2>
-      
-   
+
+          <li>Multiplayer Rock, Paper, Scissors game
+              <a class="devicons devicons-responsive links" href="https://johndavidbeatty.github.io/GroupProject/design_fast.html" target="_blank" title="Go to the application">application</a>
+              <a class="devicons devicons-github_badge links" href="https://github.com/johndavidbeatty/GroupProject/" target="_blank" title="Go to the GitHub project page">code</a>
+          </li>
+          <li>GIF search tool that saves your favorites
+              <a class="devicons devicons-responsive links" href="https://johndavidbeatty.github.io/GIF_Search/" target="_blank" title="Go to the application">application</a>
+              <a class="devicons devicons-github_badge links" href="https://github.com/johndavidbeatty/GIF_Search/" target="_blank" title="Go to the GitHub project page">code</a>
+          </li>
+          <li>Timed trivia game
+              <a class="devicons devicons-responsive links" href="https://johndavidbeatty.github.io/TriviaGame/index.html" target="_blank" title="Go to the application">application</a>
+              <a class="devicons devicons-github_badge links" href="https://github.com/johndavidbeatty/TriviaGame/" target="_blank" title="Go to the GitHub project page">code</a>
+          </li>
+          <li>HangMan game
+              <a class="devicons devicons-responsive links" href="https://johndavidbeatty.github.io/Word-Guess-Game/" target="_blank" title="Go to the application">application</a>
+              <a class="devicons devicons-github_badge links" href="https://github.com/johndavidbeatty/Word-Guess-Game/" target="_blank" title="Go to the GitHub project page">code</a>
+          </li>
+          <br>
+          <div class="subheading mb-3">Personal Coding Projects</div>
+          <li>Coming soon...</li>
 
 
 
 
-      <!-- Image with link -->
-      <img id="bio-image" src="https://s3-us-west-1.amazonaws.com/co-directory-images/beattyjohn.jpg" alt="John Beatty">
+        </div>
+      </section>
 
-      <!-- Paragraph with embedded link -->
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-   
-    </section>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Outside of work, I enjoy spending time with my wife and three daughters as well as our two dogs (German Shepherd and Golden Retriever.)</p>  
+          <p>I enjoy traveling, sailing, running and hiking as well as finding new food and drink.  I also love to read and also enjoy podcasts and the occasional movie.</p>
 
-    <!-- Section 2: Contact Info -->
-    <section id="contact-info">
-            <h2>Contact Info</h2>
-      <!-- h2: Tier-2 Headline -->
-      
+        </div>
+      </section>
 
-      <!-- Unordered list -->
-      <ul>
-        <li><strong>Email:</strong> <a href="mailto:someplace@gmail.com">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="https://github.com/johndavidbeatty">JohnDavidBeatty</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
 
-    </section>
-  </div>
 
-</body>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.js"></script>
+
+  </body>
 
 </html>
